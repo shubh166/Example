@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-//updates are pushed and it looks good and good how is everybody doing today !!!!!!!!!!!!!!!!!!!!
-=======
-//updates are pushed and it looks good and good and how is everybody doing and my name is Shubham Kumar Singh!!!!!!!!!!!!!!!!!!!!
->>>>>>> feature/develop
-
 import java.util.*;
 
 class ATM {
