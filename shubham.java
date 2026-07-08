@@ -6,9 +6,8 @@ public class VulnerableTest {
         String userInput = request.getParameter("id");
 
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/test");
-        Statement stmt = conn.createStatement();
-
-        String query = "SELECT * FROM users WHERE id = " + userInput;
-        stmt.executeQuery(query);
+        PreparedStatement stmt = conn.prepareStatement("SELECT * FROM users WHERE id = ?");
+        stmt.setString(1, userInput);
+        stmt.executeQuery();
     }
 }
