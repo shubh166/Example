@@ -1,3 +1,5 @@
+//Code for SAST vulnerabilities
+
 import java.sql.*;
 import javax.servlet.http.HttpServletRequest;
 
