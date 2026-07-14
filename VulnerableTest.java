@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-//Code for SAST vulnerabilities
-=======
 //Code for SAST vulnerabilitieswdwwfwf
->>>>>>> feature/QA
 
 import java.sql.*;
 import javax.servlet.http.HttpServletRequest;
